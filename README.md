@@ -21,3 +21,5 @@ then there are three footers.
 - Bottom Footers
 
 this page also has the same stuff as the main one with the exception that there is a table in the center to enter information for signing up to the website
+
+https://main--profound-babka-8f0e55.netlify.app/
