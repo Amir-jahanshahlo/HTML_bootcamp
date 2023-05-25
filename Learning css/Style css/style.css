@@ -1,5 +1,27 @@
 .container {
+    background-color: #F6F6F6;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.phone { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.img1 {
+    width: 17.97px;
+    height: 18px;
+    top: 19px;
+    left: 80.97px;
+}
+
+.p1 {
+    width: 78px;
+    height: 23px;
+    top: 16px;
+    left: 113px;
+    font-size: 14px;
 }
