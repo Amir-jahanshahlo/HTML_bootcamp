@@ -1,6 +1,19 @@
+@font-face {
+    font-family: Hind Siliguri;
+    src: url(font/Hind_Siliguri/HindSiliguri-Regular.ttf);
+}
+
+@font-face {
+    font-family: Hind Siliguri-bold;
+    src: url(font/Hind_Siliguri/HindSiliguri-Bold.ttf);
+}
+body{
+    max-width: 1440px;
+}
+
 /* css header */
 .container {
-    width: 1440px;
+    width: 1520px;
     height: 56px;
     background-color: #F6F6F6;
     display: flex;
@@ -8,26 +21,19 @@
     justify-content: space-between;
 }
 
-/* phone part */
-.phone { 
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: auto;
+header.container {
+    align-items: center;
 }
 
-.img1 {
-    position: absolute;
-    width: 17.97px;
-    height: 18px;
-    top: 19px;
-    left: 80.97px;
+/* css header items */
+.info {
+    font-family: Hind Siliguri;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.64px;
+    text-align: center;
 }
 
-.p1 {
-    position: absolute;
-    width: 100px;
-    height: 23px;
-    top: 16px;
-    left: 113px;
+.header-main {
+    font-family: Hind Siliguri-bold;
 }
