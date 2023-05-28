@@ -36,6 +36,7 @@ header.container {
 
 /* css header items */
 .info {
+    display: flex;
     font-family: Hind Siliguri;
     font-size: normal;
     font-weight: 400;
@@ -52,10 +53,10 @@ header.container {
     text-align: center;
 }
 
-.img1 {
-    position: absolute;
-    left: 5.62%;
-    right: 93.13%;
-    top: 0.31%;
-    bottom: 99.39%;
+.text {
+    padding-right: 50px;
+}
+
+.img {
+    padding-right: 15px;
 }
