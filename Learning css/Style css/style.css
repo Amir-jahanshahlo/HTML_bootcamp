@@ -86,3 +86,20 @@ header.container {
   font-size: 30px;
   line-height: 49px;
 }
+
+.nav-bar2 {
+  font-family: Hind Siliguri;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+}
+
+.horizontal-list {
+  list-style: none;
+  display: flex;
+}
+
+.horizontal-list li {
+  padding-right: 20px;
+}
