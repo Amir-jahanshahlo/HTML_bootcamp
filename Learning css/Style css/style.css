@@ -13,6 +13,11 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  /* Remove the underline of the link */
+}
+
 body {
   max-width: 1440px;
 }
@@ -93,7 +98,20 @@ header.container {
   font-weight: 500;
   line-height: 29px;
   text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
+
+.nav-bar2.horizontal-list {
+  margin-right: 100px;
+}
+
+.link {
+  display: block;
+  margin-right: 10px;
+}
+
 
 .horizontal-list {
   list-style: none;
