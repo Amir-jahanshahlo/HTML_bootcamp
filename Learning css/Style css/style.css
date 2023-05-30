@@ -159,6 +159,9 @@ header.container {
 /* satr the article part */
 .main-part {
   background-image: url(Images/Untitled-1\ 1main\ image.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   position: absolute;
   width: 1440px;
   height: 750px;
