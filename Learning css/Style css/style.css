@@ -121,3 +121,11 @@ header.container {
 .horizontal-list li {
   padding-right: 20px;
 }
+
+.nav-bar3 {
+  display: block;
+  margin-right: 50px;
+}
+.button1 {
+  background-color: #ffffff;
+}
