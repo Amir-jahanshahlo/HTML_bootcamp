@@ -18,13 +18,8 @@ a {
   /* Remove the underline of the link */
 }
 
-/* body {
-  max-width: 1440px;
-} */
-
 /* css header */
 .container {
-  /* width: 1440px; */
   height: 56px;
   background-color: #f6f6f6;
   display: flex;
@@ -32,10 +27,6 @@ a {
   align-items: center;
   padding: 0px 80px;/* order: top-right-bottom-left */
 }
-
-/* header.container {
-  align-items: center;
-} */
 
 /* css header items */
 .info {
@@ -55,8 +46,8 @@ a {
   font-size: 18px;
   line-height: 29.11px;
   text-align: center;
-  /* left: 50%; */
-  transform: translateX(-50%);
+  /* left: 50%;
+  transform: translateX(-50%); */
 }
 
 .text {
@@ -69,18 +60,14 @@ a {
 /* end of the css header items */
 
 /* start of the css second header items */
-.nav {
-  
+.nav { 
   display: flex;
-  /* width: 1440px; */
   height: 109px;
-  /* left: 0px;
-  top: 56px; */
   justify-content: space-between;
   background-color: #ffffff;
   align-items: center;
   align-content: center;
-  /* padding: 20px 80px 0px 80px; */
+  padding: 20px 80px 0px 80px;
 }
 
 .nav-bar1 {
@@ -97,37 +84,28 @@ a {
   font-weight: 500;
   line-height: 29px;
   text-align: center;
-  
   /* left: 50%; */
-  transform: translate(-50%);
+  /* transform: translate(-50%); */
 }
 
-.nav-bar2.horizontal-list {
+/* .nav-bar2.horizontal-list {
   margin-right: 100px;
-}
+} */
 
 .link {
   display: block;
   margin-right: 40px;
 }
 
-
 .horizontal-list {
   list-style: none;
   display: flex;
 }
 
-/* .horizontal-list li {
-  padding-right: 20px;
-} */
-
 .nav-bar3 button {
-  /* display: block; */
-  margin-right: 25px;
+  margin-right: 10px;
   height: 49px;
   width: 49px;
-  /* left: 1021px;
-  top: 86px; */
   border-radius: 5px;
 
 }
@@ -142,15 +120,14 @@ a {
   font-size: 18px;
   font-weight: 600;
   line-height: 29px;
-  letter-spacing: 0em;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 10px;
 }
 
 .nav-bar3 .button2 {
-  /* height: 49px;
-  width: 126px;
-  left: 1234px;
-  top: 86px; */
   border-radius: 5px;
 }
 /* end of the second header */
