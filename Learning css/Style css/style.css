@@ -34,9 +34,9 @@ body {
   /* order: top-right-bottom-left */
 }
 
-header.container {
+/* header.container {
   align-items: center;
-}
+} */
 
 /* css header items */
 .info {
@@ -50,6 +50,7 @@ header.container {
 }
 
 .header-main {
+  display: flex;
   font-family: Hind Siliguri-bold;
   font-weight: 600;
   font-size: 18px;
@@ -160,8 +161,6 @@ header.container {
 .main-part {
   background-image: url(Images/Untitled-1\ 1main\ image.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   position: absolute;
   width: 1440px;
   height: 750px;
