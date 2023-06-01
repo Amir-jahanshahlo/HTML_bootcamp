@@ -121,14 +121,14 @@ a {
   font-weight: 600;
   line-height: 29px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 100px;
-  padding-right: 10px;
 }
 
 .nav-bar3 .button2 {
   border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 10px;
 }
 /* end of the second header */
 
