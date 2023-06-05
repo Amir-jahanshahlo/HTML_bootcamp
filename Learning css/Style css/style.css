@@ -204,4 +204,28 @@ a {
 /* start of the benefit part */
 .benefit-part {
   display: flex;
+  justify-content: center;
+}
+
+.benefit-part .delivery{
+  flex-direction: column;
+}
+
+.p1 {
+  font-family: Hind Siliguri;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.p2 {
+  font-family: Open-Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+
 }
