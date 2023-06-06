@@ -235,3 +235,44 @@ a {
   letter-spacing: 0em;
   text-align: center;
 }
+/* end of the benefit part */
+
+/* start of the product part */
+.product-part {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.p3 {
+  font-family: Hind Siliguri;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 58px;
+  text-align: center;
+}
+
+.article-part {
+  display: flex;
+  padding-left: 50px;
+}
+
+.section1 {
+  background: url(Images/image\ 14.png);
+  color: #ffffff;
+  width: 548px;
+  height: 707px;
+  border: #fff;
+  border-radius: 30px;
+  margin-top: 40px;
+  padding-top: 195px;
+}
+
+.p4 {
+  font-family: Hind Siliguri;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 68px;
+  text-align: center;
+
+}
