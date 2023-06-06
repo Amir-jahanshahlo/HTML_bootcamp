@@ -205,10 +205,17 @@ a {
 .benefit-part {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background: url(Images/Vector\ 2.png) no-repeat center;
 }
 
-.benefit-part .delivery{
+.benefit-part .delivery {
   flex-direction: column;
+  margin: 50px;
+}
+
+.delivery {
+  text-align: center;
 }
 
 .p1 {
@@ -217,7 +224,7 @@ a {
   font-weight: 600;
   line-height: 49px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
 }
 
 .p2 {
@@ -226,6 +233,5 @@ a {
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0em;
-  text-align: left;
-
+  text-align: center;
 }
