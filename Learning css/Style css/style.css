@@ -280,8 +280,8 @@ a {
 /* satart of the section2 of the product part */
 .section2 {
   display: grid;
-  grid-template-rows: repeat(2);
-  grid-template-columns: repeat(2);
+  grid-template-rows: repeat(2 , 1fr);
+  grid-template-columns: repeat(2 , 1fr);
   column-gap: 2rem;
   row-gap: 2rem;
   margin-top: 40px;
@@ -310,5 +310,11 @@ a {
   line-height: 22px;
   text-align: left;
   padding: 10px;
+  color: #232323;
+  /* height: 82px;
+  width: 300px;
+  left: 679px;
+  top: 1642px; */
+
 
 }
