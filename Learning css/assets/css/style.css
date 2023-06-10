@@ -1,16 +1,16 @@
 @font-face {
   font-family: Hind Siliguri;
-  src: url(font/Hind_Siliguri/HindSiliguri-Regular.ttf);
+  src: url("../font/Hind_Siliguri/HindSiliguri-Regular.ttf");
 }
 
 @font-face {
   font-family: Hind Siliguri-bold;
-  src: url(font/Hind_Siliguri/HindSiliguri-Bold.ttf);
+  src: url("../font/Hind_Siliguri/HindSiliguri-Bold.ttf");
 }
 
 @font-face {
   font-family: Open-Sans;
-  src: url(font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+  src: url("../font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
 * {
@@ -83,6 +83,7 @@ a {
   font-weight: 600;
   font-size: 30px;
   line-height: 49px;
+  color: #9e3040;
 }
 
 .nav-bar2 {
@@ -146,7 +147,7 @@ a {
 
 /* satrt the article part */
 .main-part {
-  background: url(Images/Untitled-1\ 1main\ image.svg) no-repeat center;
+  background: url("../Images/Untitled-1\ 1main\ image.svg") no-repeat center;
   height: 750px;
   background-size: cover;
   justify-content: center;
@@ -205,8 +206,9 @@ a {
 .benefit-part {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: url(Images/Vector\ 2.png) no-repeat center;
+  /* align-items: center; */
+  background: url("../Images/Vector\ 2.png") no-repeat center;
+  background-size: 100%;
 }
 
 .benefit-part .delivery {
@@ -258,7 +260,7 @@ a {
 }
 
 .section1 {
-  background: url(Images/image\ 14.png);
+  background: url("../Images/image\ 14.png") no-repeat center;
   color: #ffffff;
   width: 548px;
   height: 707px;
@@ -303,18 +305,51 @@ a {
   padding: 10px;
 }
 
-.p5 {
-  font-family: Open Sans;
+.image {
+  padding: 10px;
+}
+
+.text1 {
+  font-family: Open-Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 14px;
+  padding-bottom: 80px;
+  color: #232323;
+}
+
+.price {
+  display: flex;
+}
+
+.numbers1 {
+  font-family: Hind Siliguri;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: left;
+  color: #9E3040;
+  padding: 10px;
+}
+
+.numbers2 {
+  text-decoration: line-through;
+  font-family: Hind Siliguri;
   font-size: 16px;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 26px;
   text-align: left;
-  padding: 10px;
-  color: #232323;
-  /* height: 82px;
-  width: 300px;
-  left: 679px;
-  top: 1642px; */
+  height: 26px;
+  color: #686868;
+  padding-top: 19px;
+}
 
-
+.add-cart {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
 }
